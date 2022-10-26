@@ -45,7 +45,7 @@ export default function ForgotPassword() {
              </p>
 
           </div>
-          <button type="submit" className='w-full bg-blue-600 text-white px-7 py-3 text-sm font-medium uppercase rounded shadow-md hover:bg-blue-800 transition duration-150 ease-in-out hover:shadow-lg active:bg-blue-900'>Send Reset Password</button>
+          <button type="submit" className='w-full bg-blue-600 text-white px-7 py-3 text-sm font-medium uppercase rounded shadow-md hover:bg-blue-800 transition duration-150 ease-in-out hover:shadow-lg active:bg-blue-900'>Send Reset Password </button>
 
         <div className=' flex my-4 items-center before:border-t  before:flex-1  before:border-gray-300  after:border-t  after:flex-1  after:border-gray-300'>
           <p className='text-center font-semibold mx-4'>OR</p>
