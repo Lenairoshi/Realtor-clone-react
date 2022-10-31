@@ -3,7 +3,8 @@ import { useState } from 'react'
 import { getAuth, updateProfile } from 'firebase/auth'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { updateDoc, doc } from 'firebase/firestore'
+import { updateDoc, doc} from 'firebase/firestore'
+import { db } from '../firebase'
 
 
 export default function Profile() {
@@ -51,9 +52,9 @@ export default function Profile() {
         
         await updateDoc(docRef, {
           name: name
-        })
+        });
       }
-      toast.success("Profile details updated!")
+      toast.success("Profile details updated!");
       
     } catch (error) {
       toast.error("Could not update!")
